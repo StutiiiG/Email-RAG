@@ -76,12 +76,17 @@ personal-email-rag/
 ├─ src/
 │  ├─ ingest_emails.py
 │  ├─ ingest_drive_files.py
-│  └─ qa.py
+│  ├─ qa.py 
+   └─ retrieve.py  
 ├─ db/
 │  └─ schema.sql
+
 ├─ data/
-│  ├─ user_1/
-│  └─ user_2/
+|  ├─ drive/
+|     ├─ user_1/ 
+│     └─ user_2/  
+│  ├─ user1_emails.json
+│  └─ user2_emails.json
 ├─ docker-compose.yml
 ├─ requirements.txt
 ├─ README.md
