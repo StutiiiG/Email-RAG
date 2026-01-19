@@ -1,0 +1,90 @@
+[
+  {
+    "thread_id": "t1",
+    "message_id": "m1",
+    "sender": "sarah@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Q4 budget update",
+    "body": "Q4 budget is approved at $120k. Please allocate $40k to marketing experiments and keep $20k as buffer.",
+    "sent_at": "2025-11-02T10:15:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m1",
+    "metadata": {"tags": ["finance", "q4"]}
+  },
+  {
+    "thread_id": "t2",
+    "message_id": "m2",
+    "sender": "marketing@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Product launch planning",
+    "body": "We should align launch messaging around reliability and speed. Proposed launch date is Dec 10. Final copy needed by Nov 25.",
+    "sent_at": "2025-11-05T16:30:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m2",
+    "metadata": {"tags": ["launch", "marketing"]}
+  },
+  {
+    "thread_id": "t3",
+    "message_id": "m3",
+    "sender": "sarah@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Hiring freeze clarification",
+    "body": "There will be no new headcount approvals in Q4. Please plan assuming current team size.",
+    "sent_at": "2025-11-08T09:00:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m3",
+    "metadata": {"tags": ["hiring", "finance"]}
+  },
+  {
+    "thread_id": "t4",
+    "message_id": "m4",
+    "sender": "eng-lead@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Infra stability concerns",
+    "body": "We saw multiple production alerts last week. Infra reliability should be prioritized over feature work.",
+    "sent_at": "2025-11-10T14:45:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m4",
+    "metadata": {"tags": ["infra", "reliability"]}
+  },
+  {
+    "thread_id": "t5",
+    "message_id": "m5",
+    "sender": "finance@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Marketing spend follow-up",
+    "body": "Reminder that marketing experiments should stay within the $40k allocation approved earlier.",
+    "sent_at": "2025-11-12T11:20:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m5",
+    "metadata": {"tags": ["finance", "marketing"]}
+  },
+  {
+    "thread_id": "t6",
+    "message_id": "m6",
+    "sender": "pm@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Launch dependencies",
+    "body": "The Dec 10 launch depends on infra signoff and final QA results by Dec 3.",
+    "sent_at": "2025-11-15T10:00:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m6",
+    "metadata": {"tags": ["launch", "qa"]}
+  },
+  {
+    "thread_id": "t7",
+    "message_id": "m7",
+    "sender": "sarah@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "Budget risk note",
+    "body": "If infra issues continue, we may need to reallocate part of the marketing budget toward reliability work.",
+    "sent_at": "2025-11-18T08:30:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m7",
+    "metadata": {"tags": ["finance", "infra"]}
+  },
+  {
+    "thread_id": "t8",
+    "message_id": "m8",
+    "sender": "ops@company.com",
+    "recipients": ["user1@demo.com"],
+    "subject": "End-of-quarter checklist",
+    "body": "Please complete infra audits, budget reconciliation, and launch readiness review before Dec 20.",
+    "sent_at": "2025-11-20T17:00:00Z",
+    "url": "https://mail.google.com/mail/u/0/#inbox/m8",
+    "metadata": {"tags": ["ops", "q4"]}
+  }
+]

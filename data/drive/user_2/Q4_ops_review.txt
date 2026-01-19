@@ -1,0 +1,35 @@
+Q4 Ops Review (User 2) — Notes (Internal)
+
+Date: 2025-11-18
+Owner: Ops Lead (User 2)
+
+Summary
+- Q4 focus is operational reliability and spend discipline.
+- Budget guidance: keep spend flat; no additional headcount this quarter.
+- Primary goal: improve incident response and reduce production regressions.
+
+Key Decisions
+1) Hiring / Headcount
+   - No new hires approved in Q4.
+   - Contractors only if a critical outage risk is identified (requires VP approval).
+
+2) Spend & Budget
+   - Maintain current run-rate; avoid new vendor subscriptions unless replacing an existing tool.
+   - Any purchase over $5,000 requires finance sign-off.
+   - Keep a small emergency buffer for critical infra incidents (e.g., database scaling or on-call tooling).
+
+3) Reliability Targets
+   - Reduce P1 incidents by 30% compared to Q3.
+   - Bring mean time to recovery (MTTR) under 45 minutes for P1.
+   - Add post-incident action items to the weekly ops review.
+
+Action Items
+- Create weekly spend tracker and share every Friday (Owner: Finance Partner)
+- Audit alert noise and remove low-signal alerts (Owner: SRE)
+- Run a chaos test on the staging environment by Dec 1 (Owner: Platform Eng)
+
+Notes
+- If product asks for additional marketing experiments, push back unless it replaces existing spend.
+- Q4 is about stability: “ship fewer things, break less.”
+
+

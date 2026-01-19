@@ -1,0 +1,79 @@
+[
+  {
+    "thread_id": "tA",
+    "message_id": "mA",
+    "sender": "alex@other.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "API integration status",
+    "body": "The API integration is blocked on auth scope changes. ETA for fix is Friday after QA signoff.",
+    "sent_at": "2025-11-03T09:00:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mA",
+    "metadata": {"tags": ["api", "integration"]}
+  },
+  {
+    "thread_id": "tB",
+    "message_id": "mB",
+    "sender": "sarah@company.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "Q4 budget note",
+    "body": "For your team, keep Q4 spend flat. No additional headcount; prioritize infra reliability.",
+    "sent_at": "2025-11-06T11:00:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mB",
+    "metadata": {"tags": ["finance", "q4"]}
+  },
+  {
+    "thread_id": "tC",
+    "message_id": "mC",
+    "sender": "pm@company.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "Feature freeze",
+    "body": "All non-critical feature development is paused until infra issues are resolved.",
+    "sent_at": "2025-11-09T15:00:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mC",
+    "metadata": {"tags": ["product", "infra"]}
+  },
+  {
+    "thread_id": "tD",
+    "message_id": "mD",
+    "sender": "qa@company.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "QA backlog update",
+    "body": "QA backlog has increased due to API instability. Fixes are prioritized over new tests.",
+    "sent_at": "2025-11-12T10:30:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mD",
+    "metadata": {"tags": ["qa", "api"]}
+  },
+  {
+    "thread_id": "tE",
+    "message_id": "mE",
+    "sender": "ops@company.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "Incident review",
+    "body": "Last week's outage was caused by misconfigured auth scopes. Preventive measures are in progress.",
+    "sent_at": "2025-11-14T13:15:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mE",
+    "metadata": {"tags": ["incident", "infra"]}
+  },
+  {
+    "thread_id": "tF",
+    "message_id": "mF",
+    "sender": "finance@company.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "Spend tracking reminder",
+    "body": "Please ensure Q4 spend remains within approved limits. No reallocations expected.",
+    "sent_at": "2025-11-17T09:45:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mF",
+    "metadata": {"tags": ["finance"]}
+  },
+  {
+    "thread_id": "tG",
+    "message_id": "mG",
+    "sender": "alex@other.com",
+    "recipients": ["user2@demo.com"],
+    "subject": "API fix deployed",
+    "body": "Auth scope fix has been deployed to staging. QA verification scheduled for tomorrow.",
+    "sent_at": "2025-11-19T16:00:00Z",
+    "url": "https://mail.google.com/mail/u/1/#inbox/mG",
+    "metadata": {"tags": ["api", "qa"]}
+  }
+]
