@@ -164,13 +164,13 @@ The output includes:
 
 ## Demo and Evaluation
 
-* **Demo script:** `demo.md`
+* **Demo script:** `Demo.md`
   Step-by-step walkthrough showing ingestion, querying, and multi-user isolation.
 
-* **Architecture details:** `architecture.md`
+* **Architecture details:** `Architecture.md`
   Design decisions, model choices, and tradeoffs.
 
-* **Evaluation report:** `evaluation.md`
+* **Evaluation report:** `Evaluation.md`
   Performance benchmarks, challenges, limitations, and production considerations.
 
 ---
