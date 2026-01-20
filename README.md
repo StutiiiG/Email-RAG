@@ -81,10 +81,10 @@ personal-email-rag/
 │  └─ user2_emails.json
 ├─ db/
 │  └─ schema.sql
-├─ docs/
-|  ├─ architecture.md
-|  └─ demo.md
-|  └─ evaluation.md 
+├─ Docs/
+|  ├─ Architecture.md
+|  └─ Demo.md
+|  └─ Evaluation.md 
 ├─ src/
 │  ├─ ingest_emails.py
 │  ├─ ingest_drive_files.py
