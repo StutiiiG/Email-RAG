@@ -73,26 +73,26 @@ The system ingests emails and Google Drive files, stores embeddings in PostgreSQ
 
 ```text
 personal-email-rag/
-├─ src/
-│  ├─ ingest_emails.py
-│  ├─ ingest_drive_files.py
-│  ├─ qa.py 
-   └─ retrieve.py  
-├─ db/
-│  └─ schema.sql
-
 ├─ data/
 |  ├─ drive/
 |     ├─ user_1/ 
 │     └─ user_2/  
 │  ├─ user1_emails.json
 │  └─ user2_emails.json
+├─ db/
+│  └─ schema.sql
+├─ docs/
+|  ├─ architecture.md
+|  └─ demo.md
+|  └─ evaluation.md 
+├─ src/
+│  ├─ ingest_emails.py
+│  ├─ ingest_drive_files.py
+│  ├─ qa.py 
+│  └─ retrieve.py  
 ├─ docker-compose.yml
-├─ requirements.txt
 ├─ README.md
-├─ demo.md
-├─ architecture.md
-└─ evaluation.md
+├─ requirements.txt
 ``` 
 
 ---
