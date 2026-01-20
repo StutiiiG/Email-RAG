@@ -1,12 +1,44 @@
-# secrets
+# -------------------------
+# Secrets / env
+# -------------------------
 .env
+.env.*
+!.env.example
 
-# virtual environment
+# -------------------------
+# Python / venv
+# -------------------------
 .venv/
-
-# python junk
+venv/
+ENV/
 __pycache__/
-*.pyc
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+.ipynb_checkpoints/
 
-# OS junk
+# -------------------------
+# OS / editor junk
+# -------------------------
 .DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -------------------------
+# Local data (do not commit)
+# -------------------------
+data/incoming/
+data/drive/
+*.db
+
+# If you generate logs locally
+*.log
+
