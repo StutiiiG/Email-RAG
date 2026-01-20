@@ -1,7 +1,7 @@
 # Personal Email RAG System 
 
 A local, privacy-preserving Retrieval-Augmented Generation (RAG) system for querying personal emails and documents.
-The system ingests emails and Google Drive files, stores embeddings in PostgreSQL using pgvector, and answers questions using a locally hosted LLM via Ollama — with strict grounding and per-user data isolation.
+The system ingests emails and Google Drive files, stores embeddings in PostgreSQL using pgvector, and answers questions using a locally hosted LLM via Ollama. 
 
 ---
 
